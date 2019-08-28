@@ -1,7 +1,7 @@
 
 name = 'go'
 
-version = ''
+version = '1.12.9'
 
 build_requires = {
     'curl'
