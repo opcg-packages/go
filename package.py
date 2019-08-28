@@ -12,6 +12,7 @@ build_requires = [
     '7za'
 ]
 
+
 @early()
 def build_command():
     import os
@@ -20,6 +21,7 @@ def build_command():
         return 'cmd.exe /C {root}/build.cmd {install}'
 
     return '{root}/build.sh {install}'
+
 
 def commands():
     env.GOROOT = '{root}'
